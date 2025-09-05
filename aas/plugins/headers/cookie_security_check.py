@@ -1,5 +1,5 @@
 
-from ..plugins.base import PluginBase
+from aas.plugins.base import PluginBase
 import httpx
 class CookieSecurityCheck(PluginBase):
     def run(self):
