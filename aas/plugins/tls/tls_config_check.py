@@ -1,5 +1,5 @@
 
-from ..plugins.base import PluginBase
+from aas.plugins.base import PluginBase
 import socket, ssl, urllib.parse
 class TLSConfigCheck(PluginBase):
     def run(self):
